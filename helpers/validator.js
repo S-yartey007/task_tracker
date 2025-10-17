@@ -24,11 +24,12 @@ function validateStatus(status) {
 }
 
 function validateCorrectStatus(status) {
-  console.log(status === "done");
   if (status === "done" || status === "todo" || status === "in-progress") {
-    console.log("Enter valid status");
     return true;
-  } else return false;
+  } else {
+    console.log("Enter valid status");
+    return false;
+  }
 }
 module.exports = {
   validateDescription,
