@@ -13,3 +13,20 @@ You can add, update, delete, and mark tasks as **todo**, **in-progress**, or **d
 git clone https://github.com/S-yartey007/task_tracker.git
 cd task_tracker
 ```
+
+### Use cases
+
+task-cli add "Buy groceries"
+
+task-cli update 1 "Buy groceries and cook dinner"
+
+task-cli 1 delete
+
+task-cli mark 1 in-progress
+task-cli mark 1 done
+
+task-cli list
+
+task-cli list todo
+task-cli list in-progress
+task-cli list done
